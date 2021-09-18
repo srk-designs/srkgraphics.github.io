@@ -1,0 +1,203 @@
+a:hover {
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head {
+    color: #B42B51;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head::after {
+    background: #420516;
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    margin: 10px auto;
+}
+
+#header {
+    color: white;
+    background: #50137D;
+    box-shadow: 5px 5px 10px rgba(252, 248, 5, 0.9)
+}
+
+#logo {
+    margin: 10px;
+}
+
+#menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li a {
+    color: #fff;
+    padding: 20px 8px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #B42B51;
+}
+
+#banner {
+    background: url('jr-korpa-9XngoIpxcEo-unsplash.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title h1 {
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    margin: 0px;
+    font-size: 56px;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.banner-title p.lead {
+    color: white;
+    opacity: 0.8;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.service-box {
+    font-size: 16px;
+    text-align: center;
+    border-style: solid;
+    padding: 20px;
+    border-color: #B42B51;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(81, 34, 250, 0.3);
+}
+
+.service-box i.fab {
+    color: #B42B51;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.banner_image {
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#testimonials {
+    background: url('jr-korpa-9XngoIpxcEo-unsplash.jpg') no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: white;
+}
+
+#testimonials .section-head {
+    color: white;
+}
+
+#testimonials img {
+    border-radius: 10px;
+}
+
+.news-post img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.news-post {
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    background: #50137D;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(81, 34, 250, 0.5);
+}
+
+.news-post h3 a {
+    color: #fff;
+}
+
+a {
+    color: white
+}
+
+#footer-sidebar {
+    color: white;
+    background: #50137D;
+    padding: 40px 0px;
+}
+
+.footer-widget h4::after {
+    content: "";
+    background: white;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-widget a {
+    color: white;
+}
+
+#footer {
+    color: white;
+    background: #270142;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.about-image {
+    text-align: right;
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+#about h3 {
+    color: #B42B51;
+    padding: 0px;
+    margin: 0px;
+}
+
+#about p {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .testimonials {
+        text-align: center;
+        margin: 40px;
+    }
+    .section-head {
+        margin: 20px;
+        text-align: center;
+    }
+    .service-box {
+        margin: 10px;
+    }
+    .footer-widget {
+        margin-bottom: 20px;
+    }
+    #footer {
+        text-align: center;
+    }
+}
